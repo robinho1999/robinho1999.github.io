@@ -43,6 +43,10 @@ h2 {
     font-size: 50px;
   }
 
+  .different_Text a {
+    color: rgb(255, 255, 255);
+  }
+
   .pp {
   
     padding: 0px 20px;
