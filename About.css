@@ -49,6 +49,14 @@ h2 {
     text-align: center;
     color: blue;
 }
+
+.here li {
+    color: rgb(248, 149, 132);
+}
+
+.here li:hover{
+    color: rgb(196, 75, 54);
+}
   
 
 @media only screen and (min-width: 701px) {
