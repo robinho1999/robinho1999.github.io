@@ -44,19 +44,29 @@ h2 {
   }
 
   .pp {
-    float: left;
+  
     padding: 0px 20px;
     text-align: center;
-    color: blue;
+    color: rgb(0, 0, 0);
+}
+.pp b {
+    font-size: 20;
+}
+
+.pp a{
+    color: white;
+
 }
 
 .here li {
     color: rgb(248, 149, 132);
+    text-decoration: solid;
 }
 
 .here li:hover{
     color: rgb(196, 75, 54);
 }
+
   
 
 @media only screen and (min-width: 701px) {
@@ -100,7 +110,7 @@ h2 {
     display: block;
     position: relative;
     top: 20px;
-    left: 40px;
+    left: 30px;
     opacity: 0.8;
     z-index: 1;
     
@@ -204,25 +214,25 @@ h2 {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
-  position: absolute;
-  width: 17%;
-  margin: -100px 0 0 -50px;
-  padding: 30px;
-  padding-top: 125px;
-  border-radius: 50px / 50px 0px;
-  
-  background: #2f2e2e;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
+ #menu
+ {
+   position: absolute;
+   width: 22%;
+   margin: -100px 0 0 -50px;
+   padding: 30px;
+   padding-top: 125px;
+   border-radius: 50px / 50px 0px;
+   
+   background: #2f2e2e;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
 
 #menu li
 {
